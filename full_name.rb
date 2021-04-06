@@ -16,5 +16,5 @@ name_array.push(ask_name("first"))
 name_array.push(ask_name("middle"))
 name_array.push(ask_name("last"))
 
-#final greeting with entire name
+#final greeting with entire name using join method
 puts "Hello #{name_array.join(" ")}, nice to meet you!"
